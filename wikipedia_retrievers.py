@@ -1,5 +1,5 @@
 from langchain_community.retrievers import WikipediaRetriever
-
+from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 load_dotenv()  # reads .env file
 
